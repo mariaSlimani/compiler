@@ -2,10 +2,10 @@
 Compiler created during school project.
 It compiles a code according to the language described in the Language.pdf file
 # How to run it 
-### `lex scanner.lex`
-### `yacc -d parser.y`
-### `cc -o compiler y.tab.c lex.yy.c -ll`
-### `./compiler < input.txt`
+### `lex scanner.lex
+yacc -d parser.y
+cc -o compiler y.tab.c lex.yy.c -ll
+./compiler < input.txt`
 ### The Result will be in output.txt
 ## scanner.lex
 Contains the code for the lexical analysis.
