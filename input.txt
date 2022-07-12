@@ -1,0 +1,59 @@
+#programme_test
+importer "scan.h"
+$ methName []
+{
+ var ent x = 10 
+ x + 8
+ x --
+ x = x + 5
+}
+$ methName2 []
+{
+ const ch chaine = "Covid"
+}
+$ flot fctName [ flot y []]
+{
+ 	const flot un_flt = 3.6
+	y [] = [un_flt, 6 ,8 ]
+ //z ++;
+}
+$Prog  
+{ 
+	// Ceci est un test
+	var ent loop = 2 
+	loop = loop * 7
+	loop = loop % 1
+	loop ++
+	var car character = 'm'
+	const car a = 'a'
+	tq (((!(loop + 3 > 0))&(character === 'm'))|(a !== 'b'))
+	{
+		ecrire(" Projet COMP 2021/2022 ")
+		loop = loop - 1
+	}
+	pour (ent i = 5, i<10 , i ++)
+	{
+		loop ++
+	}
+	faireTq 
+	{
+		loop --
+	}
+	(loop>0)
+	si (loop === 0)
+	{
+		ecrireDans ("Ecriture dans un fichier","output.txt")
+	}
+	ssi (loop > 5)
+	{
+		loop ++
+	}
+	ssi (loop < 5)
+	{
+		loop ++
+	}
+	sinon
+	{
+		loop = 5
+	}
+}
